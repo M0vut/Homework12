@@ -37,7 +37,7 @@ public class Main {
 
     }
     // Третье задание
-    public static void deliveryDistance(int deliveryDistance) {
+    public static int deliveryDistance(int deliveryDistance) {
 
         int timeOfDelivery = 1;
         if (deliveryDistance < 20) {
@@ -50,7 +50,7 @@ public class Main {
         {
             System.out.println("Доставки нет");
         }
-
+        return deliveryDistance;
     }
 
 
