@@ -44,7 +44,7 @@ public class Main {
             System.out.println("Потребуется одни сутки ");
         } else if (deliveryDistance < 60) {
             System.out.println("Потребуется двое суток");
-        } else if (deliveryDistance < 100) {
+        } else if (deliveryDistance <= 100) {
             System.out.println("Потребуется трое суток");
         }else if(deliveryDistance >100)
         {
@@ -67,7 +67,7 @@ public class Main {
 
         System.out.println("Домашнее задание 3");
 
-        int deliveryDistance = 66;
+        int deliveryDistance = 100;
         deliveryDistance(deliveryDistance);
 
     }
